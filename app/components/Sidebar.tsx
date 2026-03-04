@@ -3,6 +3,7 @@ import { useRouter, usePathname } from 'next/navigation'
 
 const links = [
   {href:'/dashboard', icon:'📊', label:'لوحة التحكم'},
+  {href:'/accounts', icon:'📊', label:'دليل الحسابات'},
   {href:'/sales', icon:'💰', label:'المبيعات'},
   {href:'/clients', icon:'🤝', label:'العملاء'},
   {href:'/inventory', icon:'📦', label:'المخزون'},
