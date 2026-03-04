@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { db } from '../lib/supabase.ts'
+import { db } from '../lib/supabase
 import Sidebar from '../components/Sidebar'
 
 type Account = {
