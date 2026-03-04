@@ -14,7 +14,6 @@ type Product = {
   barcode: string
   status: string
 }
-// hossam
 export default function Inventory() {
   const [products, setProducts] = useState<Product[]>([])
   const [showModal, setShowModal] = useState(false)
