@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { db } from '../lib/supabase
+import { db } from '../lib/supabase'
 import Sidebar from '../components/Sidebar'
 
 type Supplier = { id: string; name: string }
