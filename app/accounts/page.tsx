@@ -89,7 +89,7 @@ export default function Accounts() {
     'Asset': 'أصول', 'Liability': 'خصوم', 'Equity': 'حقوق ملكية', 'Revenue': 'إيرادات', 'Expense': 'مصروفات'
   }
 
-  function renderTree(nodes: Account[], depth = 0): JSX.Element[] {
+  function renderTree(nodes: Account[], depth = 0): React.ReactElement[] {
     const filtered = search ? accounts.filter(a => a.account_name.includes(search) || a.account_code.includes(search)) : null
     const toRender = filtered || nodes
 
